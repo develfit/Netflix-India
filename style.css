@@ -8,4 +8,17 @@ header {
   height: 70vh;
   background-image: url('/assets/images/bg.jpg');
   position:relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.opacityBox {
+  position: absolute;
+  height: 70vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.64;
 }
